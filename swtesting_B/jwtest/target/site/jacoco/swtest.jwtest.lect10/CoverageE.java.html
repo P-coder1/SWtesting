@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CoverageE.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jwtest</a> &gt; <a href="index.source.html" class="el_package">swtest.jwtest.lect10</a> &gt; <span class="el_source">CoverageE.java</span></div><h1>CoverageE.java</h1><pre class="source lang-java linenums">package swtest.jwtest.lect10;
+
+<span class="fc" id="L3">public class CoverageE {</span>
+	public void coverage(int x , int y ,int z) {
+<span class="pc bpc" id="L5" title="1 of 4 branches missed.">		if((x&gt;10) || (y&gt;10))</span>
+<span class="fc" id="L6">			z = x - y;</span>
+<span class="pc bpc" id="L7" title="1 of 4 branches missed.">		if((x&gt;20) || (z==0)) //x 가 2보다 큰지 아니면 z가 같은지</span>
+<span class="fc" id="L8">				z = z + 1;</span>
+<span class="fc" id="L9">		System.out.println(&quot;z :&quot; + z);</span>
+<span class="fc" id="L10">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>
